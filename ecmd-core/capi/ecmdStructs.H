@@ -71,6 +71,7 @@
 #define ECMD_CHIPT_SERVICE_PROCESSOR    "sp"
 #define ECMD_CHIPT_IOU                  "iou"
 #define ECMD_CHIPT_NOCHIP               "nochip"
+#define ECMD_PST_PROCESSOR              "ph"
 
 #if !defined(ECMD_PERLAPI) && !defined(ECMD_PYAPI)
 #define ECMD_UNSET          0xFFFFFFFF ///< Used to signify unset or -1 for uint32_t types
